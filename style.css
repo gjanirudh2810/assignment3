@@ -1,0 +1,195 @@
+
+body {
+    height: 100%;
+    
+    background-color: #000;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+.w3-black:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+.w3-block {
+    display: block;
+    width: 100%
+}
+.w3-black {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.w3-top, .w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+.w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before
+{
+    content: "";
+    display: table;
+    clear: both
+}
+.w3-padding {
+    padding: 5px 0px !important
+}
+.w3-blue {
+    color: #fff !important;
+    background-color: #2196F3 !important
+}
+.w3-col.s3 {
+    width: 25%
+}
+
+.w3-col {
+    float: left;
+    width: 100%
+}
+.w3-top, .w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.w3-top {
+    top: 0;
+    left:0;
+}
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-image: url("img/mc.jpg");
+    padding-top: 10%;
+	
+   
+}
+div.aboutmc
+{
+    text-align: center;
+    padding-top: 5%;
+}
+div.aboutactivities
+{
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#gymactivities {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #gymactivities td, #gymactivities {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #gymactivities tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #gymactivities tr:hover {background-color: #ddd;}
+  
+  #gymactivities th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3147c2;
+    color: white;
+  }
+ 
+.form{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(54, 115, 185);
+   
+  }
+  
+  
+  
+ .register
+ {
+     text-align: center;
+     padding-top:40px;
+     background: rgb(54, 115, 185);
+   
+ }
+  .description
+  {
+     
+      padding-left: 15%;
+      padding-top: 10%;
+  }
+ 
+
+
+  
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .aboutus
+  {
+      padding-top: 5%;
+     
+  }
+
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+
+
+#locations {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #locations td, #locations {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #locations tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #locations tr:hover {background-color: #ddd;}
+  
+  #locations th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #31c27e;
+    color: white;
+  }
+.ourcenter
+{
+    padding-top: 4%;
+}
